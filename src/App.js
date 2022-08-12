@@ -10,12 +10,10 @@ import './App.css';
 const App = () => {
 
   const pull_city = (data) => {
-    // setLanguage(data)
     setCountry(data)
   }
 
   const pull_language = (data) => {
-    // setLanguage(data)
     setLanguage(data)
   }
   const [country, setCountry] = useState({ "code": " ", "name": "My Selected Country" }) // use for initialing / setting country

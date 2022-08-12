@@ -10,7 +10,6 @@ import countryList from "../data/country.json";
 import _ from "lodash";
 
 const SelectCountry = (props) => {
-  // const [country, setCountry] = useState("My selected country") // use for initialing / setting country
   const [selected, setSelected] = useState({ "code": " ", "name": "-select-" })// use for initialing / setting language
   
 
