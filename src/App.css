@@ -45,3 +45,24 @@
 .dropdown-item {
   white-space: pre-wrap;
 }
+.buttonBorder {
+  text-align: left;
+  border: 1px solid #ddd;   
+   text-align: start;
+}
+.ulStyle {
+  list-style-type: none;
+  padding: 0;
+  height: 247px;
+  overflow-y: auto;
+  border: 2px solid #ddd;
+  padding: 1.5%;
+}
+li:hover{
+  background-color: #ddd;
+}
+li:focus{
+  background-color: #ddd;
+}
+.selected {background: #CCD5DB;} 
+li.selected {background: #CCD5DB;}
